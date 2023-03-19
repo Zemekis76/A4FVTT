@@ -1,0 +1,39 @@
+{
+    "name": "my-system",
+    "title": "My System",
+    "description": "A custom system for Foundry VTT.",
+    "author": "Your Name",
+    "version": "0.1.0",
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9.0.0",
+    "esmodules": [
+        "module/actor.js",
+        "module/actor-sheet.js",
+        "module/item.js",
+        "module/item-sheet.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "de",
+            "name": "Deutsch",
+            "path": "lang/de.json"
+        }
+    ],
+    "styles": [
+        {
+            "name": "style",
+            "path": "styles/style.css"
+        }
+    ],
+    "templates": [
+        {
+            "name": "template",
+            "path": "module/template.hbs"
+        }
+    ]
+}
