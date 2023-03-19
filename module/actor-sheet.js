@@ -14,4 +14,9 @@ export class MySystemActorSheet extends ActorSheet {
         data.config = CONFIG.MySystem;
         return data;
     }
+
+    activateListeners(html) {
+        super.activateListeners(html);
+        html.on("drop", this._onDrop.bind(this));
+    }
 }
