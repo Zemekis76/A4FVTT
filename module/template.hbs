@@ -1,0 +1,20 @@
+<div class="sheet">
+    <h2>{{config.Actor.Name}}: {{actor.name}}</h2>
+    <div class="sheet-body">
+        <div class="attribute">
+            <label>{{config.Actor.Strength}}</label>
+            <input type="number" value="{{actor.data.strength}}" data-dtype="Number" name="data.strength">
+        </div>
+        <div class="items-list">
+            <h3>{{config.Actor.Items}}</h3>
+            {{#each actor.items as |item|}}
+            <div class="item">
+                <label>{{config.Actor.ItemName}}</label>
+                <input type="text" value="{{item.name}}" data-dtype="String" name="items.{{@index}}.name">
+                <label>{{config.Actor.ItemWeight}}</label>
+                <input type="number" value="{{item.data.weight}}" data-dtype="Number" name="items.{{@index}}.data.weight">
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>
