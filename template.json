@@ -11,10 +11,17 @@
     ],
     "Item": [
         {
-            "name": "my-system-item",
+            "name": "Sword",
             "type": "item",
             "data": {
-                "weight": 0
+                "weight": 5
+            }
+        },
+        {
+            "name": "Pike",
+            "type": "item",
+            "data": {
+                "weight": 12
             }
         }
     ]
