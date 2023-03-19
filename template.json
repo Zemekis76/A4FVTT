@@ -1,0 +1,21 @@
+{
+    "Actor": [
+        {
+            "name": "my-system-actor",
+            "type": "actor",
+            "data": {
+                "strength": 0,
+                "items": []
+            }
+        }
+    ],
+    "Item": [
+        {
+            "name": "my-system-item",
+            "type": "item",
+            "data": {
+                "weight": 0
+            }
+        }
+    ]
+}
