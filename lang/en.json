@@ -1,0 +1,10 @@
+{
+    "MySystem": "My System",
+    "Actor": {
+        "Name": "Name",
+        "Strength": "Strength",
+        "Items": "Items",
+        "ItemName": "Item Name",
+        "ItemWeight": "Weight"
+    }
+}
