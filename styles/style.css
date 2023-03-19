@@ -1,0 +1,28 @@
+.sheet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sheet-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.attribute {
+    display: flex;
+    align-items: center;
+}
+
+.items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
