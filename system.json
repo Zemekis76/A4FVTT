@@ -3,7 +3,7 @@
     "title": "My System",
     "description": "A custom system for Foundry VTT.",
     "author": "Your Name",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "minimumCoreVersion": "0.8.0",
     "compatibleCoreVersion": "9.0.0",
     "esmodules": [
@@ -36,9 +36,9 @@
             "path": "module/template.hbs"
         }
     ]
-"url": "https://github.com/Zemekis76/A4FVTT",
-"manifest": "https://github.com/Zemekis76/A4FVTT/raw/main/system.json",
-"download": "https://github.com/Zemekis76/A4FVTT/archive/refs/tags/FoundryVTT.zip",
+    "url": "https://github.com/Zemekis76/A4FVTT",
+    "manifest": "https://github.com/Zemekis76/A4FVTT/releases/latest/download/system.json",
+    "download": "https://github.com/Zemekis76/A4FVTT/releases/download/0.2/FoundryVTT.zip"
 
 
 }
